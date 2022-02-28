@@ -45,7 +45,7 @@ Experience in the following areas is not necessary, but will increase your chanc
 
 Thank You.
 
-### Task
+## Task
 
 This is a test task which is created to evaluate your react skills and your adaptability to someone else's code. What you need to do is work on this react repository. Here's is the list of functions that are already implemented:
 
