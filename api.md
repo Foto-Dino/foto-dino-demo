@@ -33,10 +33,9 @@ DELETE
 |Attribute |Type |Example |Default 
 |-- |-- |-- |--
 |id |`int` |23 |auto
-|events |`array` |[1, 3 ,4 ,5] |auto
-|name |`str` |Birthday |`None`
-|description |`str` | This event is a birthday party for a young boy |auto
-|event_date |`date` | 22.1.2022 |auto
+|name |`str` |Birthday Party |`None`
+|description |`str` | This event is a birthday party for a young boy |none
+|event_date |`date` | 22.1.2022 |none
 
 ## Cities
 GET
