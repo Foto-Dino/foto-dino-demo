@@ -59,3 +59,15 @@ What you need to do is:
 2. Each event belongs to a specific location
 3. Find any ways that you can improve the UI/UX
 
+After you have completed your submission:
+
+1. Upload the code on your github repository
+2. Deploy the application
+3. Fill out the google form, here's the link
+
+https://docs.google.com/forms/d/e/1FAIpQLScKFAC2VC6ywII9q2T0eqhx56gCPK8te9jhXuFOmTJ8jm2tbA/viewform?usp=sf_link
+
+###Good Luck!!
+
+
+
