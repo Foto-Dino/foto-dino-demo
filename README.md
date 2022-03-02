@@ -43,7 +43,13 @@ Experience in the following areas is not necessary, but will increase your chanc
 - GNU/Linux operating systems, Linux CLI tools, Bash scripting.
 - Python, specifically Django
 
-Thank You.
+A starting budget of 200$/monthly with a raise option, and a long term partnership (at least 12months) sounds good?
+
+you see yourself being part of a modern, fast growing german start up and you have at least 20h/week to get tasks done?
+.
+
+This is our flagship project:
+https://foto-dino.de/
 
 ## Task
 
