@@ -1,6 +1,5 @@
 The base api can be found at `https://testapi.photodino.de/`. 
 
-`BASE_URL for =  https://testapi.photodino.de/`
 
 ## Events
 GET
@@ -8,7 +7,7 @@ GET
 |Action |URL |Parameters |Response |
 |--|--|--|--|
 |get all events |`BASE_URL/events/` |`None`|Array with diciontaries for each event
-|Get specific city |`BASE_URL/events/<event_id>` |`None` |Dictonary array of event details
+|Get specific event |`BASE_URL/events/<event_id>/` |`None` |Dictonary array of event details
 Filter by  name|`BASE_URL/events/` | `{"name": "str"}` |List of all events matching name or not found message
 
 POST
