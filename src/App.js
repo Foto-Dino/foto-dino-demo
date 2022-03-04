@@ -37,7 +37,7 @@ const App = () => {
   //City methods
 
   const fetchCities = async () => {
-    const res = await axios.get("https://api.photodino.com/locations/cities/");
+    const res = await axios.get("https://testapi.photodino.de/cities/");
     const data = await res.data;
     return data;
   };
@@ -49,7 +49,7 @@ const App = () => {
       },
     };
     await axios
-      .post("https://api.photodino.com/locations/cities/", formData, config)
+      .post("https://testapi.photodino.de/cities/", formData, config)
       .then((res) => {
         const data = res.data;
 
@@ -68,7 +68,7 @@ const App = () => {
       },
     };
     await axios
-      .put(`https://api.photodino.com/locations/cities/${id}/`, data, config)
+      .put(`https://testapi.photodino.de/cities/${id}/`, data, config)
       .then((res) => {
         const data = res.data;
         setCities(
@@ -82,7 +82,7 @@ const App = () => {
   };
 
   const deleteCity = async (id) => {
-    await axios.delete(`https://api.photodino.com/locations/cities/${id}/`);
+    await axios.delete(`https://testapi.photodino.de/cities/${id}/`);
     setCities(cities.filter((city) => city.id !== id));
   };
 
@@ -90,7 +90,7 @@ const App = () => {
 
   const fetchLocations = async (cityId) => {
     await axios
-      .get("https://api.photodino.com/locations/locations/", {
+      .get("https://testapi.photodino.de/locations/", {
         params: { city_id: cityId },
       })
       .then((res) => {
@@ -108,7 +108,7 @@ const App = () => {
       },
     };
     await axios
-      .post("https://api.photodino.com/locations/locations/", formData, config)
+      .post("https://testapi.photodino.de/locations/", formData, config)
       .then((res) => {
         const data = res.data;
         setLocations([data, ...locations]);
@@ -125,7 +125,7 @@ const App = () => {
     };
 
     await axios
-      .put(`https://api.photodino.com/locations/locations/${id}/`, data, config)
+      .put(`https://testapi.photodino.de/locations/${id}/`, data, config)
       .then((res) => {
         const data = res.data;
         setLocations(
@@ -135,7 +135,7 @@ const App = () => {
   };
 
   const deleteLocation = async (id) => {
-    await axios.delete(`https://api.photodino.com/locations/locations/${id}/`);
+    await axios.delete(`https://testapi.photodino.de/locations/${id}/`);
     setLocations(locations.filter((location) => location.id !== id));
   };
 
